@@ -1,10 +1,9 @@
 import styled from 'styled-components';
-import homeBackgroundImage from '../../images/homeBackground.jpg'
 
 export const Title = styled.h1`
     font-size: 5em;
     text-align: center;
-    color: turquoise;
+    color: ;
     font-weight: bold;
     text-align: center;
     position: relative;
@@ -15,6 +14,9 @@ export const Title = styled.h1`
 `;
 
 export const HomePageBackground = styled.div`
-    background-color: Green;
-    min-height: 100vh;
+    background-colour: red;
+    height: 100%
+    width: 100%
+
+
 `

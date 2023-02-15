@@ -4,11 +4,14 @@ interface BannerProps {
     imageSrc: string
 }
 
-export const Banner: FC<BannerProps> = ({imageSrc}) => {
+export const Banner: FC<BannerProps> = ({imageSrc}: BannerProps) => {
 
     return (
         <BannerBackground imageSrc ={imageSrc}>
-            <h1>hello</h1>
+            {/* <DWCLogo/>
+            <HomeButton/>
+            <AboutButton/>
+            <ConnectButton/> */}
         </BannerBackground>
     )
 }
